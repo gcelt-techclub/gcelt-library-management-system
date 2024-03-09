@@ -5,8 +5,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon app.js",
-    "prod": "node app.js",
+    "dev": "set NODE_ENV=dev&&nodemon app.js",
+    "prod": "set NODE_ENV=prod&&node app.js",
     "format": "prettier -w ."
   },
   "keywords": [],
